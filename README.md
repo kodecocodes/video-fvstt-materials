@@ -1,6 +1,6 @@
 # VS Code Tips & Tricks: Materials
 
-This repo contains all the downloadable materials and projects associated with the **[VIVS Code Tips & TricksDEO](https://www.raywenderlich.com/9529598-vs-code-tips-tricks)** from [raywenderlich.com](https://www.raywenderlich.com).
+This repo contains all the downloadable materials and projects associated with the **[VS Code Tips & Tricks](https://www.raywenderlich.com/9529598-vs-code-tips-tricks)** from [raywenderlich.com](https://www.raywenderlich.com).
 
 Each edition has its own branch, named `versions/[VERSION]`. The default branch for this repo is for the most recent edition.
 
