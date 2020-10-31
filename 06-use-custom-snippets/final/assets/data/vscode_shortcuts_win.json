@@ -1,0 +1,513 @@
+{
+  "name": "VS Code Keyboard Shortcuts (Windows)",
+  "version": 1,
+  "createdBy": "Emmanuel Okiche",
+  "shortcuts": {
+    "general": [
+      {
+        "keyBinding": "Ctrl+Shift+P, F1",
+        "command": "Show Command Palette"
+      },
+      {
+        "keyBinding": "Ctrl+P",
+        "command": "Quick Open, Go to File…"
+      },
+      {
+        "keyBinding": "Ctrl+Shift+N",
+        "command": "New window/Instance"
+      },
+      {
+        "keyBinding": "Ctrl+Shift+W",
+        "command": "Close window/Instance"
+      },
+      {
+        "keyBinding": "Ctrl+,",
+        "command": "User Settings"
+      },
+      {
+        "keyBinding": "Ctrl+K Ctrl+S",
+        "command": "Keyboard Shortcuts"
+      }
+    ],
+    "basicEditing": [
+      {
+        "keyBinding": "Ctrl+X",
+        "command": "Cut line (empty selection)"
+      },
+      {
+        "keyBinding": "Ctrl+C",
+        "command": "Copy line (empty selection)"
+      },
+      {
+        "keyBinding": "Alt+ ↑ / ↓",
+        "command": "Move line up/down"
+      },
+      {
+        "keyBinding": "Shift+Alt+ ↑ / ↓",
+        "command": "Copy line up/down"
+      },
+      {
+        "keyBinding": "Ctrl+Shift+K",
+        "command": "Delete line"
+      },
+      {
+        "keyBinding": "Ctrl+Enter",
+        "command": "Insert line below"
+      },
+      {
+        "keyBinding": "Ctrl+Shift+Enter",
+        "command": "Insert line above"
+      },
+      {
+        "keyBinding": "Ctrl+Shift+\\",
+        "command": "Jump to matching bracket"
+      },
+      {
+        "keyBinding": "Ctrl+] / [",
+        "command": "Indent/outdent line"
+      },
+      {
+        "keyBinding": "Home / End",
+        "command": "Go to beginning/end of line"
+      },
+      {
+        "keyBinding": "Ctrl+Home",
+        "command": "Go to beginning of file"
+      },
+      {
+        "keyBinding": "Ctrl+End",
+        "command": "Go to end of file"
+      },
+      {
+        "keyBinding": "Ctrl+↑ / ↓",
+        "command": "Scroll line up/down"
+      },
+      {
+        "keyBinding": "Alt+PgUp / PgDn",
+        "command": "Scroll page up/down"
+      },
+      {
+        "keyBinding": "Ctrl+Shift+[",
+        "command": "Fold (collapse) region"
+      },
+      {
+        "keyBinding": "Ctrl+SHift+]",
+        "command": "Unfold (uncollapse) all region"
+      },
+      {
+        "keyBinding": "Ctrl+K Ctrl+[",
+        "command": "Fold (collapse) all subregions"
+      },
+      {
+        "keyBinding": "Ctrl+K Ctrl+]",
+        "command": "Unfold (uncollapse) all subregions"
+      },
+      {
+        "keyBinding": "Ctrl+K Ctrl+O",
+        "command": "Fold (collapse) all regions"
+      },
+      {
+        "keyBinding": "Ctrl+K Ctrl+J",
+        "command": "Unfold (uncollapse) all regions"
+      },
+      {
+        "keyBinding": "Ctrl+K Ctrl+C",
+        "command": "Add line comment"
+      },
+      {
+        "keyBinding": "Ctrl+K Ctrl+U",
+        "command": "Remove line comment"
+      },
+      {
+        "keyBinding": "Ctrl+/",
+        "command": "Toggle line comment"
+      },
+      {
+        "keyBinding": "Shift+Alt+A",
+        "command": "Toggle block comment"
+      },
+      {
+        "keyBinding": "Alt+Z",
+        "command": "Toggle word wrap"
+      }
+    ],
+    "navigation": [
+      {
+        "keyBinding": "Ctrl+T",
+        "command": "Show all Symbols"
+      },
+      {
+        "keyBinding": "Ctrl+G",
+        "command": "Go to Line..."
+      },
+      {
+        "keyBinding": "Ctrl+P",
+        "command": "Go to File..."
+      },
+      {
+        "keyBinding": "Ctrl+Shift+O",
+        "command": "Go to Symbol..."
+      },
+      {
+        "keyBinding": "Ctrl+Shift+M",
+        "command": "Show Problems panel"
+      },
+      {
+        "keyBinding": "F8",
+        "command": "Go to next error or warning"
+      },
+      {
+        "keyBinding": "Shift+F8",
+        "command": "Go to previous error or warning"
+      },
+      {
+        "keyBinding": "Ctrl+Shift+Tab",
+        "command": "Navigate editor group history"
+      },
+      {
+        "keyBinding": "Alt+ ← / →",
+        "command": "Go back/forward"
+      },
+      {
+        "keyBinding": "Ctrl+M",
+        "command": "Toggle Tab moves focus"
+      }
+    ],
+    "searchAndReplace": [
+      {
+        "keyBinding": "Ctrl+F",
+        "command": "Find"
+      },
+      {
+        "keyBinding": "Ctrl+H",
+        "command": "Replace"
+      },
+      {
+        "keyBinding": "F3 / Shift+F3",
+        "command": "Find next/previous"
+      },
+      {
+        "keyBinding": "Alt+Enter",
+        "command": "Select all occurences of Find match"
+      },
+      {
+        "keyBinding": "Ctrl+D",
+        "command": "Add selection to next FInd match"
+      },
+      {
+        "keyBinding": "Ctrl+K Ctrl+D",
+        "command": "Move last selection to next Find match"
+      },
+      {
+        "keyBinding": "Alt+C / R / W",
+        "command": "Toggle case-sensitive / regex / whole word"
+      }
+    ],
+    "multi-cursorAndSelection": [
+      {
+        "keyBinding": "Alt+Click",
+        "command": "Insert cursor"
+      },
+      {
+        "keyBinding": "Ctrl+Alt+ ↑ / ↓",
+        "command": "Insert cursor above / below"
+      },
+      {
+        "keyBinding": "Ctrl+U",
+        "command": "Undo last cursor operation"
+      },
+      {
+        "keyBinding": "Shift+Alt+I",
+        "command": "Insert cursor at end of each line selected"
+      },
+      {
+        "keyBinding": "Ctrl+L",
+        "command": "Select current line"
+      },
+      {
+        "keyBinding": "Ctrl+Shift+L",
+        "command": "Select all occurrences of current selection"
+      },
+      {
+        "keyBinding": "Ctrl+F2",
+        "command": "Select all occurrences of current word"
+      },
+      {
+        "keyBinding": "Shift+Alt+→",
+        "command": "Expand selection"
+      },
+      {
+        "keyBinding": "Shift+Alt+←",
+        "command": "Shrink selection"
+      },
+      {
+        "keyBinding": "Shift+Alt+(drag mouse)",
+        "command": "Column (box) selection"
+      },
+      {
+        "keyBinding": "Ctrl+Shift+Alt+(arrow key)",
+        "command": "Column (box) selection"
+      },
+      {
+        "keyBinding": "Ctrl+Shift+Alt+PgUp/PgDn",
+        "command": "Column (box) selection page up/down"
+      }
+    ],
+    "richLanguagesEditing": [
+      {
+        "keyBinding": "Ctrl+Space",
+        "command": "Trigger suggestion"
+      },
+      {
+        "keyBinding": "Ctrl+Shift+Space",
+        "command": "Trigger parameter hints"
+      },
+      {
+        "keyBinding": "Shift+Alt+F",
+        "command": "Format document"
+      },
+      {
+        "keyBinding": "Ctrl+K Ctrl+F",
+        "command": "Format selection"
+      },
+      {
+        "keyBinding": "F12",
+        "command": "Go to Definition"
+      },
+      {
+        "keyBinding": "Alt+F12",
+        "command": "Peek Definition"
+      },
+      {
+        "keyBinding": "Ctrl+K F12",
+        "command": "Open Definition to the side"
+      },
+      {
+        "keyBinding": "Ctrl+.",
+        "command": "Quick Fix"
+      },
+      {
+        "keyBinding": "Shift+F12",
+        "command": "Show References"
+      },
+      {
+        "keyBinding": "F2",
+        "command": "Rename Symbol"
+      },
+      {
+        "keyBinding": "Ctrl+K Ctrl+X",
+        "command": "Trim trailing whitespace"
+      },
+      {
+        "keyBinding": "Ctrl+K M",
+        "command": "Change file language"
+      }
+    ],
+    "editorManagement": [
+      {
+        "keyBinding": "Ctrl+F4, Ctrl+W",
+        "command": "Close editor"
+      },
+      {
+        "keyBinding": "Ctrl+K F",
+        "command": "Close folder"
+      },
+      {
+        "keyBinding": "Ctrl+\\",
+        "command": "Split editor"
+      },
+      {
+        "keyBinding": "Ctrl+1/2/3",
+        "command": "Focus into 1st, 2nd or 3rd editor group"
+      },
+      {
+        "keyBinding": "Ctrl+K Ctrl+←/→",
+        "command": "Focus into previous/next editor group"
+      },
+      {
+        "keyBinding": "Ctrl+Shift+PgUp / PgDn",
+        "command": "Move editor left/right"
+      },
+      {
+        "keyBinding": "Ctrl+K ← / →",
+        "command": "Move active editor group"
+      }
+    ],
+    "fileManagement": [
+      {
+        "keyBinding": "Ctrl+N",
+        "command": "New File"
+      },
+      {
+        "keyBinding": "Ctrl+O",
+        "command": "Open File..."
+      },
+      {
+        "keyBinding": "Ctrl+S",
+        "command": "Save"
+      },
+      {
+        "keyBinding": "Ctrl+Shift+S",
+        "command": "Save As..."
+      },
+      {
+        "keyBinding": "Ctrl+K S",
+        "command": "Save All"
+      },
+      {
+        "keyBinding": "Ctrl+F4",
+        "command": "Close"
+      },
+      {
+        "keyBinding": "Ctrl+K Ctrl+W",
+        "command": "Close All"
+      },
+      {
+        "keyBinding": "Ctrl+Shift+T",
+        "command": "Reopen closed editor"
+      },
+      {
+        "keyBinding": "Ctrl+K Enter",
+        "command": "Keep preview mode editor open"
+      },
+      {
+        "keyBinding": "Ctrl+Tab",
+        "command": "Open next"
+      },
+      {
+        "keyBinding": "Ctrl+Shift+Tab",
+        "command": "Open previous"
+      },
+      {
+        "keyBinding": "Ctrl+K P",
+        "command": "Copy path of active file"
+      },
+      {
+        "keyBinding": "Ctrl+K R",
+        "command": "Reveal active file in Explorer"
+      },
+      {
+        "keyBinding": "Ctrl+K O",
+        "command": "Show active file in new window/instance"
+      }
+    ],
+    "display": [
+      {
+        "keyBinding": "F11",
+        "command": "Toggle full screen"
+      },
+      {
+        "keyBinding": "Shift+Alt+0",
+        "command": "Toggle editor layout (horizontal/vertical)"
+      },
+      {
+        "keyBinding": "Ctrl+ = / -",
+        "command": "Zoom in/out"
+      },
+      {
+        "keyBinding": "Ctrl+B",
+        "command": "Toggle Sidebar visibility"
+      },
+      {
+        "keyBinding": "Ctrl+Shift+E",
+        "command": "Show Explorer / Toggle focus"
+      },
+      {
+        "keyBinding": "Ctrl+Shift+F",
+        "command": "Show Search"
+      },
+      {
+        "keyBinding": "Ctrl+Shift+G",
+        "command": "Show Source Control"
+      },
+      {
+        "keyBinding": "Ctrl+Shift+D",
+        "command": "Show Debug"
+      },
+      {
+        "keyBinding": "Ctrl+Shift+X",
+        "command": "Show Extensions"
+      },
+      {
+        "keyBinding": "Ctrl+Shift+H",
+        "command": "Replace in files"
+      },
+      {
+        "keyBinding": "Ctrl+Shift+J",
+        "command": "Toggle Search details"
+      },
+      {
+        "keyBinding": "Ctrl+Shift+U",
+        "command": "Show Output panel"
+      },
+      {
+        "keyBinding": "Ctrl+Shift+V",
+        "command": "Open Markdown preview"
+      },
+      {
+        "keyBinding": "Ctrl+K V",
+        "command": "Open Markdown preview to the side"
+      },
+      {
+        "keyBinding": "Ctrl+K Z",
+        "command": "Zen Mode (Esc Esc to exit)"
+      }
+    ],
+    "debug": [
+      {
+        "keyBinding": "F9",
+        "command": "Toggle breakpoint"
+      },
+      {
+        "keyBinding": "F5",
+        "command": "Start/Continue"
+      },
+      {
+        "keyBinding": "Shift+F5",
+        "command": "Stop"
+      },
+      {
+        "keyBinding": "F11 / Shift+F11",
+        "command": "Step into/out"
+      },
+      {
+        "keyBinding": "F10",
+        "command": "Step over"
+      },
+      {
+        "keyBinding": "Ctrl+K Ctrl+I",
+        "command": "Show hover"
+      }
+    ],
+    "integratedTerminal": [
+      {
+        "keyBinding": "Ctrl+`",
+        "command": "Show integrated terminal"
+      },
+      {
+        "keyBinding": "Ctrl+Shift+`",
+        "command": "Create new terminal"
+      },
+      {
+        "keyBinding": "Ctrl+C",
+        "command": "Copy selection"
+      },
+      {
+        "keyBinding": "Ctrl+V",
+        "command": "Paste into active terminal"
+      },
+      {
+        "keyBinding": "Ctrl+↑ / ↓",
+        "command": "Scroll up/down"
+      },
+      {
+        "keyBinding": "Shift+PgUp / PgDn",
+        "command": "Scroll page up/down"
+      },
+      {
+        "keyBinding": "Ctrl+Home / End",
+        "command": "Scroll to top/bottom"
+      }
+    ]
+  }
+}

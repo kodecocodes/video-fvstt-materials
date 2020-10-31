@@ -1,0 +1,485 @@
+{
+  "name": "VS Code Keyboard Shortcuts (macOS)",
+  "version": 1,
+  "createdBy": "Emmanuel Okiche",
+  "shortcuts": {
+    "general": [
+      {
+        "keyBinding": "⇧⌘P, F1",
+        "command": "Show Command Palette"
+      },
+      {
+        "keyBinding": "⌘P",
+        "command": "Quick Open, Go to File…"
+      },
+      {
+        "keyBinding": "⇧⌘N",
+        "command": "New window/instance"
+      },
+      {
+        "keyBinding": "⌘W",
+        "command": "Close window/instance"
+      },
+      {
+        "keyBinding": "⌘,",
+        "command": "User Settings"
+      },
+      {
+        "keyBinding": "⌘K ⌘S",
+        "command": "Keyboard Shortcuts"
+      }
+    ],
+    "basicEditing": [
+      {
+        "keyBinding": "⌘X",
+        "command": "Cut line (empty selection)"
+      },
+      {
+        "keyBinding": "⌘C",
+        "command": "Copy line (empty selection)"
+      },
+      {
+        "keyBinding": "⌥↓ / ⌥↑",
+        "command": "Move line down/up"
+      },
+      {
+        "keyBinding": "⇧⌥↓ / ⇧⌥↑",
+        "command": "Copy line down/up"
+      },
+      {
+        "keyBinding": "⇧⌘K",
+        "command": "Delete line"
+      },
+      {
+        "keyBinding": "⌘Enter / ⇧⌘Enter",
+        "command": "Insert line below/above"
+      },
+      {
+        "keyBinding": "⇧⌘\\",
+        "command": "Jump to matching bracket"
+      },
+      {
+        "keyBinding": "⌘] / ⌘[",
+        "command": "Indent/outdent line"
+      },
+      {
+        "keyBinding": "Home / End",
+        "command": "Go to beginning/end of line"
+      },
+      {
+        "keyBinding": "⌘↑ / ⌘↓",
+        "command": "Go to beginning/end of file"
+      },
+      {
+        "keyBinding": "⌃PgUp / ⌃PgDn",
+        "command": "Scroll line up/down"
+      },
+      {
+        "keyBinding": "⌘PgUp /⌘PgDn",
+        "command": "Scroll page up/down"
+      },
+      {
+        "keyBinding": "⌥⌘[ / ⌥⌘]",
+        "command": "Fold/unfold region"
+      },
+      {
+        "keyBinding": "⌘K ⌘[ / ⌘K ⌘]",
+        "command": "Fold/unfold all subregions"
+      },
+      {
+        "keyBinding": "⌘K ⌘0 / ⌘K ⌘J",
+        "command": "Fold/unfold all regions"
+      },
+      {
+        "keyBinding": "⌘K ⌘C",
+        "command": "Add line comment"
+      },
+      {
+        "keyBinding": "⌘K ⌘U",
+        "command": "Remove line comment"
+      },
+      {
+        "keyBinding": "⌘/",
+        "command": "Toggle line comment"
+      },
+      {
+        "keyBinding": "⇧⌥A",
+        "command": "Toggle block comment"
+      },
+      {
+        "keyBinding": "⌥Z",
+        "command": "Toggle word wrap"
+      }
+    ],
+    "multi-cursorAndSelection": [
+      {
+        "keyBinding": "⌥ + click",
+        "command": "Insert cursor"
+      },
+      {
+        "keyBinding": "⌥⌘↑",
+        "command": "Insert cursor above"
+      },
+      {
+        "keyBinding": "⌥⌘↓",
+        "command": "Insert cursor below"
+      },
+      {
+        "keyBinding": "⌘U",
+        "command": "Undo last cursor operation"
+      },
+      {
+        "keyBinding": "⇧⌥I",
+        "command": "Insert cursor at end of each line selected"
+      },
+      {
+        "keyBinding": "⌘L",
+        "command": "Select current line"
+      },
+      {
+        "keyBinding": "⇧⌘L",
+        "command": "Select all occurrences of current selection"
+      },
+      {
+        "keyBinding": "⌘F2",
+        "command": "Select all occurrences of current word"
+      },
+      {
+        "keyBinding": "⌃⇧⌘→ / ←",
+        "command": "Expand / shrink selection"
+      },
+      {
+        "keyBinding": "⇧⌥ + drag mouse",
+        "command": "Column (box) selection"
+      },
+      {
+        "keyBinding": "⇧⌥⌘↑ / ↓",
+        "command": "Column (box) selection up/down"
+      },
+      {
+        "keyBinding": "⇧⌥⌘← / →",
+        "command": "Column (box) selection left/right"
+      },
+      {
+        "keyBinding": "⇧⌥⌘PgUp",
+        "command": "Column (box) selection page up"
+      },
+      {
+        "keyBinding": "⇧⌥⌘PgDn",
+        "command": "Column (box) selection page down"
+      }
+    ],
+    "SearchAndReplace": [
+      {
+        "keyBinding": "⌘F",
+        "command": "Find"
+      },
+      {
+        "keyBinding": "⌥⌘F",
+        "command": "Replace"
+      },
+      {
+        "keyBinding": "⌘G / ⇧⌘G",
+        "command": "Find next/previous"
+      },
+      {
+        "keyBinding": "⌥Enter",
+        "command": "Select all occurrences of Find match"
+      },
+      {
+        "keyBinding": "⌘D",
+        "command": "Add selection to next Find match"
+      },
+      {
+        "keyBinding": "⌘K ⌘D",
+        "command": "Move last selection to next Find match"
+      }
+    ],
+    "richLanguagesEditing": [
+      {
+        "keyBinding": "⌃Space",
+        "command": "Trigger suggestion"
+      },
+      {
+        "keyBinding": "⇧⌘Space",
+        "command": "Trigger parameter hints"
+      },
+      {
+        "keyBinding": "⇧⌥F",
+        "command": "Format document"
+      },
+      {
+        "keyBinding": "⌘K ⌘F",
+        "command": "Format selection"
+      },
+      {
+        "keyBinding": "F12",
+        "command": "Go to Definition"
+      },
+      {
+        "keyBinding": "⌥F12",
+        "command": "Peek Definition"
+      },
+      {
+        "keyBinding": "⌘K F12",
+        "command": "Open Definition to the side"
+      },
+      {
+        "keyBinding": "⌘.",
+        "command": "Quick Fix"
+      },
+      {
+        "keyBinding": "⇧F12",
+        "command": "Show References"
+      },
+      {
+        "keyBinding": "F2",
+        "command": "Rename Symbol"
+      },
+      {
+        "keyBinding": "⌘K ⌘X",
+        "command": "Trim trailing whitespace"
+      },
+      {
+        "keyBinding": "⌘K M",
+        "command": "Change file language"
+      }
+    ],
+    "navigation": [
+      {
+        "keyBinding": "⌘T",
+        "command": "Show all Symbols"
+      },
+      {
+        "keyBinding": "⌃G",
+        "command": "Go to Line..."
+      },
+      {
+        "keyBinding": "⌘P",
+        "command": "Go to File..."
+      },
+      {
+        "keyBinding": "⇧⌘O",
+        "command": "Go to Symbol..."
+      },
+      {
+        "keyBinding": "⇧⌘M",
+        "command": "Show Problems panel"
+      },
+      {
+        "keyBinding": "F8 / ⇧F8",
+        "command": "Go to next/previous error or warning"
+      },
+      {
+        "keyBinding": "⌃⇧Tab",
+        "command": "Navigate editor group history"
+      },
+      {
+        "keyBinding": "⌃- / ⌃⇧-",
+        "command": "Go back/forward"
+      },
+      {
+        "keyBinding": "⌃⇧M",
+        "command": "Change file language"
+      }
+    ],
+    "editorManagement": [
+      {
+        "keyBinding": "⌘W",
+        "command": "Close editor"
+      },
+      {
+        "keyBinding": "⌘K F",
+        "command": "Close folder"
+      },
+      {
+        "keyBinding": "⌘\\",
+        "command": "Split editor"
+      },
+      {
+        "keyBinding": "⌘1 / ⌘2 / ⌘3",
+        "command": "Focus into 1st, 2nd, 3rd editor group"
+      },
+      {
+        "keyBinding": "⌘K ⌘← / ⌘K ⌘→",
+        "command": "Focus into previous/next editor group"
+      },
+      {
+        "keyBinding": "⌘K ⇧⌘← / ⌘K ⇧⌘→",
+        "command": "Move editor left/right"
+      },
+      {
+        "keyBinding": "⌘K ← / ⌘K →",
+        "command": "Move active editor group"
+      }
+    ],
+    "fileManagement": [
+      {
+        "keyBinding": "⌘N",
+        "command": "New File"
+      },
+      {
+        "keyBinding": "⌘O",
+        "command": "Open File..."
+      },
+      {
+        "keyBinding": "⌘S",
+        "command": "Save"
+      },
+      {
+        "keyBinding": "⇧⌘S",
+        "command": "Save As..."
+      },
+      {
+        "keyBinding": "⌥⌘S",
+        "command": "Save All"
+      },
+      {
+        "keyBinding": "⌘W",
+        "command": "Close"
+      },
+      {
+        "keyBinding": "Close All",
+        "command": "⌘K ⌘W"
+      },
+      {
+        "keyBinding": "⇧⌘T",
+        "command": "Reopen closed editor"
+      },
+      {
+        "keyBinding": "⌘K Enter",
+        "command": "Keep preview mode editor open"
+      },
+      {
+        "keyBinding": "⌃Tab / ⌃⇧Tab",
+        "command": "Open next / previous"
+      },
+      {
+        "keyBinding": "⌘K P",
+        "command": "Copy path of active file"
+      },
+      {
+        "keyBinding": "⌘K R",
+        "command": "Reveal active file in Finder"
+      },
+      {
+        "keyBinding": "⌘K O",
+        "command": "Show active file in new window/instance"
+      }
+    ],
+    "display": [
+      {
+        "keyBinding": "⌃⌘F",
+        "command": "Toggle full screen"
+      },
+      {
+        "keyBinding": "⌥⌘0",
+        "command": "Toggle editor layout (horizontal/vertical)"
+      },
+      {
+        "keyBinding": "⌘= / ⇧⌘-",
+        "command": "Zoom in/out"
+      },
+      {
+        "keyBinding": "⌘B",
+        "command": "Toggle Sidebar visibility"
+      },
+      {
+        "keyBinding": "⇧⌘E",
+        "command": "Show Explorer / Toggle focus"
+      },
+      {
+        "keyBinding": "⇧⌘F",
+        "command": "Show Search"
+      },
+      {
+        "keyBinding": "⌃⇧G",
+        "command": "Show Source Control"
+      },
+      {
+        "keyBinding": "⇧⌘D",
+        "command": "Show Debug"
+      },
+      {
+        "keyBinding": "⇧⌘X",
+        "command": "Show Extensions"
+      },
+      {
+        "keyBinding": "⇧⌘H",
+        "command": "Replace in files"
+      },
+      {
+        "keyBinding": "⇧⌘J",
+        "command": "Toggle Search details"
+      },
+      {
+        "keyBinding": "⇧⌘U",
+        "command": "Show Output panel"
+      },
+      {
+        "keyBinding": "⇧⌘V",
+        "command": "Open Markdown preview"
+      },
+      {
+        "keyBinding": "⌘K V",
+        "command": "Open Markdown preview to the side"
+      },
+      {
+        "keyBinding": "⌘K Z",
+        "command": "Zen Mode (Esc Esc to exit)"
+      }
+    ],
+    "debug": [
+      {
+        "keyBinding": "F9",
+        "command": "Toggle breakpoint"
+      },
+      {
+        "keyBinding": "F5",
+        "command": "Start/Continue"
+      },
+      {
+        "keyBinding": "F11 / ⇧F11",
+        "command": "Step into/ out"
+      },
+      {
+        "keyBinding": "F10",
+        "command": "Step over"
+      },
+      {
+        "keyBinding": "⇧F5",
+        "command": "Stop"
+      },
+      {
+        "keyBinding": "⌘K ⌘I",
+        "command": "Show hover"
+      }
+    ],
+    "integratedTerminal": [
+      {
+        "keyBinding": "⌃`",
+        "command": "Show integrated terminal"
+      },
+      {
+        "keyBinding": "⌃⇧`",
+        "command": "Create new terminal"
+      },
+      {
+        "keyBinding": "⌘C",
+        "command": "Copy selection"
+      },
+      {
+        "keyBinding": "⌘↑ / ↓",
+        "command": "Scroll up/down"
+      },
+      {
+        "keyBinding": "PgUp / PgDn",
+        "command": "Scroll page up/down"
+      },
+      {
+        "keyBinding": "⌘Home / End",
+        "command": "Scroll to top/bottom"
+      }
+    ]
+  }
+}
